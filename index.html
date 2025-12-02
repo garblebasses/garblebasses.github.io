@@ -6,6 +6,12 @@
 <link href="styles.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hydra-synth/dist/hydra-synth.js"></script>
+<script>
+      // create a new hydra-synth instance
+      var hydra = new Hydra({ detectAudio: false })
+      osc(4, 0.1, 1.2).out()
+</script>
 </header>
 <body>
 <h1>
